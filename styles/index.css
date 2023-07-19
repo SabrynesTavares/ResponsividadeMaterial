@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#pagina{
+    min-width: 360px;
+    max-width:800px;
+    height: auto;
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(46, 109, 46);
+
+}
+
+img{
+    width:100%;
+}
+/* o @ sempre passa dois valores, sempre bom usar os dois. Primeira coisa a declarar é qual sera a parte que vai ser trabalhada como por exemolo SCREEN (na tela) */
+/* Aqui se usa lógica de programação, quando seu max - widht for maior que 600px, mude a cor da página. */
+
+/* 
+@media screen and (min-width : 600px){
+    #pagina{
+        background-color: rgb(86, 187, 221);
+    }
+
+}
+@media screen and (min-width : 300px ) and (max-width : 599px ){
+    #pagina{
+        background-color: black;
+        color: white;
+
+    }
+
+} */
+
+/* Mudança na impressão da página. */
+
+@media print {
+    *{
+        color: rgb(45, 121, 117);
+    }
+} 
